@@ -119,7 +119,7 @@ namespace BinaryHeap
         
         static List<int> heapDeletion(List<int> inputArray, int inputElement, string heapType)
         {
-            int temp = inputArray[inputArray.Count - 1];
+            int temp = inputArray[1];
             inputArray[1] = inputArray[inputArray.Count - 1];
             inputArray[inputArray.Count - 1] = temp;
             inputArray.RemoveAt(inputArray.Count - 1);
