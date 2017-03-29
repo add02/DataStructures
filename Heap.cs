@@ -156,6 +156,8 @@ namespace BinaryHeap
         }
 
         /// <summary>
+        /// Heap Sort
+        /// --------------------------------------------------------------------------------------------------------------------------
         /// The algorithm runs in two steps. Given an array of data, first, we build a heap and then turn it into a sorted list by calling deleteMin. 
         /// RUNTIME: Running time of the algorithm is O(n log n).
         /// </summary>
